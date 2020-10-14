@@ -27,5 +27,5 @@ class zwembad:
     def bereken_omheining_prijs(self):
         totstraal = self.straalz + self.b_pad
         totaal = c.Cirkel(totstraal)
-        prijs_omheining = totaal.geef_omtrek() * self.omheining_prijs()
+        prijs_omheining = totaal.geef_omtrek() * self.omheining_prijs
         return prijs_omheining
